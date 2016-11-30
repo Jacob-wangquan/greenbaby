@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="" >
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta content="telephone=no, address=no" name="format-detection">
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <title>{{headerTitle}}</title>
+
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/main.css">
+
+  </head>
+  <body>
+      <!--顶部搜索栏-->
+      <div class="header"></div>
+      <!--导航tab-->
+      <div class="tab"></div>
+
+      <div ng-view></div>
+      <!--底部tab-->
+      <foottab></foottab>
+    <script src="js/libs/require.js" data-main="js/main"></script>
+  </body>
+</html>
